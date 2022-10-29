@@ -35,9 +35,13 @@ const TodoForm=({ addTodo })=>{
 }
 function App() {
   const [todos, setTodos] = React.useState([
-    { text: "Learn about React",isCompleted: false },
+    { text: "Do laundary",isCompleted: false },
     { text: "Meet friend for lunch",isCompleted: false },
-    { text: "Build really cool todo app",isCompleted: false }
+    { text: "Walk the dogs",isCompleted: false },
+    { text: "Pick Mara at the airport",isCompleted: false },
+    { text: "Call Mummy",isCompleted: false },
+    { text: "Play video game",isCompleted: false }
+
   ]);
 
   const completeTodo = index =>{
